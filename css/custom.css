@@ -1,0 +1,412 @@
+/*!
+ * Catch Exception s.r.o.
+ */
+
+body
+{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;  
+  color: white; 
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('../img/background.jpg') no-repeat center center transparent;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+body a, body a:hover
+{
+  color: #5eb6ef;
+}
+
+h1, h2, h3, h4
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3, .pn-h3-like
+{
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 17px;
+  line-height: 1.1;
+}
+
+table tr td, table tr th
+{
+  padding: 5px 20px 5px 0;
+}
+
+ul 
+{
+  padding-left: 19px;
+}
+
+.navbar.navbar-inverse
+{
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+{
+  background: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+  color: #B5B4B4;  
+}
+
+.navbar .navbar-nav li:first-child a
+{
+  padding-left: 0;
+}
+
+.navbar .nav>li>a
+{
+  padding: 10px 25px;  
+}
+
+.header
+{
+  margin-top: 24px;
+}
+
+.header.fixed
+{
+  position: fixed;
+  width: 100%;
+  left: 15px;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.header.fixed .row
+{
+  border-bottom: 1px solid #000; 
+}
+
+.header .row
+{
+  background-color: #efefef;
+}
+
+.header .nav
+{
+  padding: 15px 25px;
+}
+
+.header .nav a
+{
+  padding: 0;
+  color: #000;
+  font-size: 20px;
+}
+
+.pn-courier-bold
+{
+  font-weight: bold;
+}
+
+.jumbotron
+{  
+  padding-top: 100px;
+  color: white;
+  padding-bottom: 110px;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.62);
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.jumbotron h1
+{  
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 40px;  
+}
+
+.jumbotron h2
+{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.jumbotron h3
+{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.jumbotron.subpages h1
+{
+  margin-top: 0;
+}
+
+.pn-page-title
+{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pn-page-title h2
+{
+    font-size: 35px;
+    position: relative;
+    margin: 0;
+    top: 44px;
+}
+
+.pn-separator-img.pn-page-title,
+.pn-separator-img-2.pn-page-title
+{
+  height: 300px;
+  color: #fff;
+  background-size: cover !important;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/separator.jpg") 50% 0px no-repeat transparent;  
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  border-top: 1px solid rgba(117, 117, 117, 0.24);
+  border-bottom: 1px solid rgba(117, 117, 117, 0.24);
+}
+
+.pn-separator-img-2.pn-page-title
+{
+  margin-top: 30px;
+  background-image: url("../img/separator-2.jpg");    
+}
+
+.pn-separator-img.pn-page-title h2,
+.pn-separator-img-2.pn-page-title h2
+{
+  top: 115px;
+  font-size: 46px;
+  text-shadow: rgb(105, 105, 105) 2px 2px 0px;
+}
+
+.how-to-design-programs
+{
+  float: left;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 0;
+  line-height: 25px;
+  margin-right: 10px;
+  font-family: 'Ubuntu', sans-serif; 
+  display: inline-block;
+}
+
+.how-to-design-programs-2,
+.essentials-of-programming-languages-2
+{
+  font-size: 26px;  
+  line-height: 25px;
+  font-family: 'Ubuntu', sans-serif; 
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.essentials-of-programming-languages-2
+{
+  margin-right: 26px;
+}
+
+.essentials-of-programming-languages
+{
+    float: right;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0;
+    line-height: 25px;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;  
+}
+
+.pn-main-wrapper 
+{
+  width: 100%;
+  background-color: #051122;
+  padding-top: 50px;  
+}
+
+.content .pn-person
+{
+  margin-bottom: 35px;
+}
+
+.content .pn-person .pn-photo .img-wrapper
+{
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 100px;
+  border: 7px solid rgba(181, 180, 180, 0.38);  
+}
+
+.content .pn-person .pn-photo img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.content .pn-person .pn-contact .pn-name
+{
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 26px;
+    line-height: 26px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.pn-seminar
+{
+  cursor: pointer;
+}
+
+.pn-seminar .pn-main-informations
+{
+  margin-bottom: 10px;
+}
+
+.pn-seminar.compact .pn-name,
+.pn-seminar .pn-title-separator,
+.pn-seminar .pn-title
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 10px; 
+    color: white;
+}
+
+.pn-seminar .pn-title
+{
+  color: #5eb6ef;
+}
+
+.pn-seminar a:focus
+{
+   outline: 0;
+   text-decoration: none;
+}
+
+.pn-seminar a:hover
+{
+  text-decoration: underline;
+}
+
+.pn-seminar .pn-title-2
+{
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 18px;
+  line-height: 22px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pn-seminar .pn-affiliation,
+.pn-seminar .pn-datetime,
+.pn-seminar .pn-room,
+.pn-seminar .pn-name
+{
+    color: #B5B4B4;
+    font-size: 14px;
+}
+
+.pn-seminar .pn-name:after, 
+.pn-seminar .pn-affiliation:after, 
+.pn-seminar .pn-datetime:after
+{
+  content: '\00a0|\00a0';
+}
+
+.pn-seminar.compact .pn-name:after, 
+.pn-seminar.compact .pn-affiliation:after, 
+.pn-seminar.compact .pn-datetime,
+.pn-seminar.compact .pn-datetime:after
+{
+  content: '';
+}
+
+.pn-seminar .pn-url
+{
+    font-size: 14px;  
+}
+
+.pn-seminar.compact .pn-affiliation:after
+{
+    content: " | ";
+}
+
+.pn-seminar.compact .pn-url,
+.pn-seminar.compact .pn-room,
+.pn-seminar.compact .pn-abstract-bio
+{
+  display: none;
+}
+
+.content .pn-muted
+{
+    color: #B5B4B4;
+    font-size: 14px;    
+}
+
+.content .pn-person .pn-bio
+{
+  margin-top: 25px;
+}
+
+.content .pn-highlight
+{
+  color: #E4FB95;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content .pn-readmore-introtext
+{
+  cursor: pointer;
+}
+
+.content .pn-readmore-fulltext
+{
+  display: none;
+}
+
+.footer
+{
+  padding: 50px 0 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #B5B4B4;
+}
+
+.footer .pn-top
+{
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 2;
+}
+
+@media (min-width: 768px){
+  .navbar {
+      border-radius: 0;
+  }
+
+  .pn-row-eq-height
+  {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;  
+  }
+}
