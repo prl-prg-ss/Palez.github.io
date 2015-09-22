@@ -25,10 +25,10 @@ h1, h2, h3, h4
 
 h3, .pn-h3-like
 {
-  margin-top: 20px;
-  font-size: 26px;
-  line-height: 26px;
-  margin-bottom: 17px;
+  margin-top: 18px;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 15px;
   line-height: 1.1;
 }
 
@@ -71,7 +71,7 @@ ul
 
 .header
 {
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .header.fixed
